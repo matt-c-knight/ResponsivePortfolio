@@ -62,6 +62,7 @@ nav {
     margin-top: 50px;
     width: 700px;
     margin-left: 100px;
+    margin-bottom: 20px;
 
 }
 
@@ -79,8 +80,69 @@ img {
 .block-header {
     color: #4aaaa5;
 }
+footer {
+    width: 100%;
+    margin: auto;
+    clear: both;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 7px solid #4aaaa5;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+}
 
-@media screen and (max-width: 728px) {
+.box {
+    background-image: url('bio.jpeg');
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 40px;
+    margin-left: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.port-container {
+    width: 960px;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-top: 140px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* @media screen and (max-width: 375px){ 
+    #my-name {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    }   
+
+nav {
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    background-color: white;
+    height: 80px;
+    
+} 
+.container {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    
+}
+} */
+
+@media screen and (max-width: 745px) {
     #my-name {
         width: 100%;
         margin: 0 auto;
@@ -112,6 +174,16 @@ img {
 
     p {
         clear: both;
+    }
+
+    .picbox {
+        background-image: url('bio.jpeg');
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
     }
 
     }
