@@ -105,6 +105,9 @@ footer {
     background-repeat: no-repeat;
 
 }
+.one {
+    background-image: url('newspaper.jpg');
+}
 .port-container {
     width: 960px;
 }
