@@ -108,6 +108,25 @@ footer {
 .one {
     background-image: url('newspaper.jpg');
 }
+.two {
+    background-image: url('coding.jpeg');
+}
+.three {
+    background-image: url('burger.jpeg');
+
+}
+.four {
+    background-image: url('weather.jpeg');
+
+}
+.five {
+    background-image: url('manage.jpeg');
+
+}
+.six {
+    background-image: url('quiz.jpeg');
+
+}
 .port-container {
     width: 960px;
 }
